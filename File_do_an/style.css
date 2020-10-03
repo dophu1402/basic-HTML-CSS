@@ -1,6 +1,19 @@
 
-#testpos {
-	background-color: red;
-	height: 100px;
-	width: 100px
+.container {
+	width: 100vw;
+	height: 100vh;
+}
+
+
+.content {
+	width: 80%;
+	margin: 0 5%;
+	padding: 15px;
+	/*background-color: red;*/
+	text-align: center;
+}
+
+#imggr {
+	margin: 5%;
+	height: 580px;
 }
