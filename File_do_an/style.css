@@ -18,6 +18,14 @@
 	height: 580px;
 }
 
-map area{
+area{
     outline: none;
+}
+.membergr {
+	/*display: none;*/
+	height: 200px;
+}
+
+#phuImg:hover {
+	height: 500px;
 }
