@@ -1,0 +1,111 @@
+
+.container {
+	width: 100vw;
+	height: 100vh;
+}
+
+
+.content {
+	width: 80%;
+	margin: 0 5%;
+	padding: 15px;
+	/*background-color: red;*/
+	text-align: center;
+}
+
+#imggr {
+	margin: 5%;
+	height: 580px;
+}
+
+area{
+    outline: none;
+}
+.membergr {
+	/*display: none;*/
+	height: 200px;
+}
+
+#phuImg:hover {
+	height: 500px;
+}
+
+
+
+.img_header {
+	width: 100vw;
+	height: auto;
+}
+
+ul.menu_button {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #70829e;
+	/*position: sticky;*/
+	top: 0;
+}
+
+ul.menu_button li {
+	float: left;
+	margin-right: 5px;
+}
+
+ul.menu_button li > a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.menu_button li a:hover, .member_menu_button:hover .member_menu_name {
+	background-color: #889bba;
+}
+
+.homebutton {
+	background-color: #186ff5;
+}
+
+li.member_menu_button {
+	display: inline-block;
+}
+
+.member_menu {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	max-width: 80px;
+	margin-left: 30px;
+	background-color: #70829e;
+}
+
+
+.member_menu a {
+	padding: 12px 16px;
+	color: white;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.member_menu_button:hover .member_menu {
+	display: block;
+}
+
+.img_icon {
+	height: 2.1rem;
+	margin-top: 0.5rem;
+}
+
+#icon_team {
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+#icon_team > a {
+	padding: 0px 0px;
+}
