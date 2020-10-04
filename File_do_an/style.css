@@ -66,7 +66,6 @@ ul.menu_button li a:hover, .member_menu_button:hover .member_menu_name {
 
 .homebutton {
 	background-color: #186ff5;
-	margin-left: 30px;
 }
 
 li.member_menu_button {
@@ -96,3 +95,17 @@ li.member_menu_button {
 .member_menu_button:hover .member_menu {
 	display: block;
 }
+/*
+.img_icon {
+	height: 2rem;
+}
+
+#icon_team {
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+#icon_team > a {
+	padding: 0px 0px;
+}
+*/
