@@ -22,7 +22,6 @@ area{
     outline: none;
 }
 .membergr {
-	/*display: none;*/
 	height: 200px;
 }
 
@@ -268,10 +267,6 @@ head, body, {
 	z-index: 1;
 }
 
-.sayhello : hover {
-	cursor: default;
-}
-
 .sayhello {
 	color: #00ffff;
 	top: 40%;
@@ -290,10 +285,6 @@ head, body, {
 	25%	{opacity:1;}
 	50%{top: 30%; visibility: visible;}
 	100% {top: 35%};
-}
-
-.myname : hover {
-	cursor: default;
 }
 
 .myname {
@@ -346,4 +337,21 @@ head, body, {
 .welcome .github:hover {
 	border-radius: 5px 5px 0px 0px;
 	background: #FF8C00;
+}
+
+
+.remove_event_pointer {
+	pointer-events: none;
+}
+
+.sayhello : hover {
+	cursor: default;
+}
+
+.myname : hover {
+	cursor: default;
+}
+
+.icon_a {
+	background-color : orange !important;
 }

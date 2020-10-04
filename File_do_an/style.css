@@ -109,10 +109,7 @@ li.member_menu_button {
 	padding: 0px 0px;
 }
 
-#icon_team > a : hover {
-	background-color: black;
+.icon_a {
+	background-color : orange !important;
 }
-#icon_team : hover {
-	background-color: black;
-}
-}
+
