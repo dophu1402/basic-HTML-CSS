@@ -443,6 +443,10 @@ li.member_menu_button {
 	z-index: 1;
 }
 
+.sayhello:hover {
+	cursor: default;
+}
+
 .sayhello {
 	color: #00ffff;
 	top: 40%;
@@ -461,6 +465,10 @@ li.member_menu_button {
 	25%	{opacity:1;}
 	50%{top: 30%; visibility: visible;}
 	100% {top: 35%};
+}
+
+.myname:hover {
+	cursor: default;
 }
 
 .myname {
