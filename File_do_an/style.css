@@ -30,6 +30,13 @@ area{
 	height: 500px;
 }
 
+
+
+.img_header {
+	width: 100vw;
+	max-height: 300px;
+}
+
 ul.menu_button {
 	list-style-type: none;
 	margin: 0;
@@ -42,10 +49,11 @@ ul.menu_button {
 
 ul.menu_button li {
 	float: left;
+	margin-right: 5px;
 }
 
-ul.menu_button li a {
-	display: block;
+ul.menu_button li a, .member_menu_name {
+	display: inline-block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
@@ -58,9 +66,33 @@ ul.menu_button li a:hover {
 
 .homebutton {
 	background-color: #186ff5;
+	margin-left: 30px;
 }
 
-.img_header {
-	width: 100vw;
-	max-height: 300px;
+li.member_menu_button {
+	display: inline-block;
 }
+
+.member_menu {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/*
+
+.member_menu a {
+	display: block;
+	background-color: black;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+.homebutton:hover .member_menu {
+	display: block;
+}
+.member_menu:hover a {
+	background-color: #dbcccc;
+}*/
