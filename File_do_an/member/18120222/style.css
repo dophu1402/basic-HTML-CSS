@@ -1,20 +1,28 @@
 
-html, body, {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+head, body, {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.layerbg {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	position: fixed;	
 }
 
 .background {
-	overflow: hidden;
-	background-size: cover;
 	width: 100%;
-	height: auto;
-	position: fixed;
-	top: 0px;
-	left: 0px;
+	height: 100%;
+	position: absolute;
+}
+
+.school {
+	right: 20px;
+	text-align: right;
+	color: white;
+	position: relative;
 }
 
 .card {
@@ -24,13 +32,13 @@ html, body, {
 	border-radius: 5px 5px 0px 0px;
 	background: #62a4f0;
 	box-shadow: 3px 3px 4px #200030;
-	box-shadow:rgba(0,0,0,.4);
-	background:rgba(0,0,0,.4);
-	position: relative;
+	box-shadow: rgba(0,0,0,.6);
+	background: rgba(0,0,0,.6);
+	position: absolute;
 }
 
 .card .github {
-	color: #fff;
+	color: orange;
 	padding: 4px 10px;
 	position: absolute;
 	right: 0px;
@@ -39,38 +47,60 @@ html, body, {
 
 }
 .card .github:hover {
-	border-radius: 5px 5px 0px 0px;
-	background: #ff9f75;
+	color: white;
+	border-radius: 0px 0px 0px 5px;
+	background: orange;
+}
+.header {
+	width: 100%;
+	position: ab;
+}
+.fullname {
+	font-family: Arial;
+	color: orange;
+	font-size: 28;
+	text-align: center;
+	position: relative;
+}
+.avatar {
+	height: auto;
+	width: 100%;
+	border: 3px solid orange;
+	box-sizing: border-box;
+	position: relative;
 }
 
 .design {
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	top: 100px;
 	width: 100%;
 	height: 70%;
-	position: absolute;
+	position: relative;
 }
 
 .info {
-	top: 0px;
+	margin-top: 0;
 	left: 650px;
 	width: 550px;
 	height: 500;
 	border-radius: 5px 5px 0px 0px;
 	background: #62a4f0;
 	box-shadow: 3px 3px 4px #200030;
-	box-shadow:rgba(0,0,0,.4);
-	background:rgba(0,0,0,.4);
-	position: absolute;
+	box-shadow: rgba(0,0,0,.6);
+	background: rgba(0,0,0,.6);
+	position: relative;
+}
+.info >h1{
+	background: orange;
+	border-radius: 5px 5px 0px 0px;
+	color: white;
+	text-align: right;
 }
 
-@keyframes example {
-	0%   {background:rgba(0,0,0,.8);}
-	25%  {background:rgba(0,0,0,.6);}
-	50%  {background:rgba(0,0,0,.4);}
-	75%  {background:rgba(0,0,0,.2);}
-	100% {background:rgba(0,0,0,.0);}
+.info >h2,h3 {
+	color: white;
 }
+
 
 .welcome {
 	width:100%;
@@ -78,6 +108,7 @@ html, body, {
 	top:0px;
 	left:0px;
 	background-color: #2F4F4F;
+	background-size:cover;
 	position: absolute;
 	animation-name: del;
 	animation-duration: 1s;
@@ -100,7 +131,7 @@ html, body, {
 }
 
 @keyframes sayhello{
-	0%	{visibility:visible;opacity: 0.2;}
+	0%	{visibility: visible;opacity: 0.2;}
 	25%	{opacity:1;}
 	50%{top: 30%; visibility: visible;}
 	100% {top: 35%};
