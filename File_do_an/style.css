@@ -29,3 +29,38 @@ area{
 #phuImg:hover {
 	height: 500px;
 }
+
+ul.menu_button {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #70829e;
+	position: sticky;
+	top: 0;
+}
+
+ul.menu_button li {
+	float: left;
+}
+
+ul.menu_button li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.menu_button li a:hover {
+	background-color: #111;
+}
+
+.homebutton {
+	background-color: #186ff5;
+}
+
+.img_header {
+	width: 100vw;
+	max-height: 300px;
+}
