@@ -1,0 +1,329 @@
+
+.container {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0px;
+	left:0px;
+}
+
+.content {
+	width: 100%;
+	height:100%;
+	position: fixed;
+}
+
+#imggr {
+	margin: 5%;
+	height: 580px;
+}
+
+area{
+    outline: none;
+}
+.membergr {
+	/*display: none;*/
+	height: 200px;
+}
+
+#phuImg:hover {
+	height: 500px;
+}
+
+
+
+.img_header {
+	width: 100vw;
+	max-height: 300px;
+}
+
+ul.menu_button {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: orange;
+	/*position: sticky;*/
+	top: 0;
+}
+
+ul.menu_button li {
+	float: left;
+	margin-right: 5px;
+}
+
+ul.menu_button li > a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.menu_button li a:hover, .member_menu_button:hover .member_menu_name {
+	background-color: #c2af8d;
+}
+
+.homebutton {
+	background-color: #db9a21;
+	margin-left: 30px;
+}
+
+li.member_menu_button {
+	display: inline-block;
+}
+
+.member_menu {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	max-width: 80px;
+	margin-left: 30px;
+	background-color: orange;
+}
+
+
+.member_menu a {
+	padding: 12px 16px;
+	color: white;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.member_menu_button:hover .member_menu {
+	display: block;
+}
+
+
+/*
+
+
+===============================================================================
+
+*/
+
+head, body, {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.layerbg {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;	
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.school {
+	right: 20px;
+	text-align: right;
+	color: white;
+	position: relative;
+}
+
+.card {
+	left: 250px;
+	width: 350px;
+	height: 500px;
+	border-radius: 5px 5px 0px 0px;
+	background: #62a4f0;
+	box-shadow: 3px 3px 4px #200030;
+	box-shadow: rgba(0,0,0,.6);
+	background: rgba(0,0,0,.6);
+	position: absolute;
+}
+
+.card .github {
+	color: orange;
+	padding: 4px 10px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	text-decoration: none;
+
+}
+.card .github:hover {
+	color: white;
+	border-radius: 0px 0px 0px 5px;
+	background: orange;
+}
+.header {
+	width: 100%;
+	position: absolute;
+}
+.fullname {
+	color: orange;
+	font-size: 32px;
+	text-align: center;
+	position: relative;
+}
+.avatar {
+	border-radius: 5px 5px 0px 0px;
+	height: auto;
+	width: 100%;
+	border: 3px solid orange;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.design {
+	letter-spacing: 2px;
+	top: 100px;
+	width: 100%;
+	height: 70%;
+	position: relative;
+}
+
+.info {
+	margin-top: 0;
+	left: 650px;
+	width: 550px;
+	height: 500px;
+	border-radius: 5px 5px 0px 0px;
+	background: #62a4f0;
+	box-shadow: 3px 3px 4px #200030;
+	box-shadow: rgba(0,0,0,.6);
+	background: rgba(0,0,0,.6);
+	position: relative;
+}
+.info >h1{
+	background: orange;
+	border-radius: 5px 5px 0px 0px;
+	color: white;
+	text-align: right;
+}
+
+.info >div{
+	left: 20px;
+	width: 85%;
+	position: relative;
+}
+
+.info >div >h2,h3 {
+	color: white;
+}
+
+.info >div >h2 {
+	top: -10px;
+	font-size: 18px;
+	position: relative;
+}
+.info >div>h3 {
+	position: relative;
+	top: -30px;
+	font-size: 24px;
+	border-bottom: 3px solid orange;
+
+}
+.back {
+	font-size: 48px;
+	color: orange;
+	padding: 4px 10px;
+	right: 0px;
+	bottom: 0px;
+	position: absolute;
+	text-decoration: none;
+}
+.back:hover {
+	color: white;
+	border-radius: 5px 0px 5px 0px;
+	background: orange;
+}
+
+
+.welcome {
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background-color: #2F4F4F;
+	background-size:cover;
+	position: absolute;
+	animation-name: del;
+	animation-duration: 1s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+	z-index: 1;
+}
+
+.sayhello {
+	color: #00ffff;
+	top: 40%;
+	left: 30%;
+	font-size: 64px;
+	visibility: hidden;
+	position: absolute;
+	animation-name: sayhello;
+	animation-duration: 3.5s;
+	animation-delay: 0.5s;
+	
+}
+
+@keyframes sayhello{
+	0%	{visibility: visible;opacity: 0.2;}
+	25%	{opacity:1;}
+	50%{top: 30%; visibility: visible;}
+	100% {top: 35%};
+}
+
+.myname {
+	color: #ff9f75;
+	top: 40%;
+	left: 40%;
+	text-align: center;
+	font-size: 64px;
+	visibility: hidden;
+	position: absolute;
+	animation-name: name;
+	animation-duration: 3s;
+	animation-delay: 1s;
+}
+@keyframes name{
+	0%	{visibility: visible;
+	opacity: 0.2;
+	top: 40%;
+	left: 40%}
+	50%	{opacity: 1;}
+	70% {opacity: 1;}
+	100% {top: 45%; left: 40%};
+}
+
+@keyframes del{
+	0%	{}
+	100%{
+	border-radius: 5px 5px 0px 0px;
+	margin-top: 100px;
+	margin-left: 20.5%;
+	width: 60%;
+	height: 70%;
+	visibility: hidden;
+	opacity: 0.2;
+	box-shadow: 3px 3px 4px #200030;
+	box-shadow:rgba(0,0,0,.4);
+	background:rgba(0,0,0,.4);
+	}
+}
+
+.welcome .github{
+	color: #fff;
+	padding: 4px 10px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	text-decoration: none;
+}
+
+.welcome .github:hover {
+	border-radius: 5px 5px 0px 0px;
+	background: #FF8C00;
+}
