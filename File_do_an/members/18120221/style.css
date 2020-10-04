@@ -253,7 +253,6 @@ head, body, {
 	background: orange;
 }
 
-
 .welcome {
 	width:100%;
 	height:100%;
@@ -267,6 +266,10 @@ head, body, {
 	animation-delay: 3s;
 	animation-fill-mode: forwards;
 	z-index: 1;
+}
+
+.sayhello : hover {
+	cursor: default;
 }
 
 .sayhello {
@@ -287,6 +290,10 @@ head, body, {
 	25%	{opacity:1;}
 	50%{top: 30%; visibility: visible;}
 	100% {top: 35%};
+}
+
+.myname : hover {
+	cursor: default;
 }
 
 .myname {
