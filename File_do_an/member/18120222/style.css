@@ -224,6 +224,10 @@ li.member_menu_button {
 	z-index: 1;
 }
 
+.sayhello:hover {
+	cursor: default;
+}
+
 .sayhello {
 	color: #00ffff;
 	top: 30%;
@@ -244,6 +248,9 @@ li.member_menu_button {
 	100% {top: 25%};
 }
 
+.myname:hover {
+	cursor: default;
+}
 .myname {
 	color: #ff9f75;
 	top: 30%;
