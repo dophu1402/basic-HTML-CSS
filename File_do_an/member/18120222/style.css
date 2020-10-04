@@ -63,6 +63,7 @@ head, body, {
 	position: relative;
 }
 .avatar {
+	border-radius: 5px 5px 0px 0px;
 	height: auto;
 	width: 100%;
 	border: 3px solid orange;
@@ -97,8 +98,41 @@ head, body, {
 	text-align: right;
 }
 
-.info >h2,h3 {
+.info >div{
+	left: 20px;
+	width: 85%;
+	position: relative;
+}
+
+.info >div >h2,h3 {
 	color: white;
+}
+
+.info >div >h2 {
+	top: -10px;
+	font-size: 18px;
+	position: relative;
+}
+.info >div>h3 {
+	position: relative;
+	top: -30px;
+	font-size: 24px;
+	border-bottom: 3px solid orange;
+
+}
+.back {
+	font-size: 48;
+	color: orange;
+	padding: 4px 10px;
+	right: 0px;
+	bottom: 0px;
+	position: absolute;
+	text-decoration: none;
+}
+.back:hover {
+	color: white;
+	border-radius: 5px 0px 5px 0px;
+	background: orange;
 }
 
 
