@@ -95,9 +95,10 @@ li.member_menu_button {
 .member_menu_button:hover .member_menu {
 	display: block;
 }
-/*
+
 .img_icon {
-	height: 2rem;
+	height: 2.1rem;
+	margin-top: 0.5rem;
 }
 
 #icon_team {
@@ -108,4 +109,3 @@ li.member_menu_button {
 #icon_team > a {
 	padding: 0px 0px;
 }
-*/
