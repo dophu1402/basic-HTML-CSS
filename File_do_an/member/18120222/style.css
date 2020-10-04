@@ -42,7 +42,7 @@ ul.menu_button {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #70829e;
+	background-color: orange;
 	/*position: sticky;*/
 	top: 0;
 }
@@ -61,11 +61,11 @@ ul.menu_button li > a {
 }
 
 ul.menu_button li a:hover, .member_menu_button:hover .member_menu_name {
-	background-color: #889bba;
+	background-color: #c2af8d;
 }
 
 .homebutton {
-	background-color: #186ff5;
+	background-color: #db9a21;
 	margin-left: 30px;
 }
 
@@ -81,7 +81,7 @@ li.member_menu_button {
 	z-index: 1;
 	max-width: 80px;
 	margin-left: 30px;
-	background-color: #70829e;
+	background-color: orange;
 }
 
 
