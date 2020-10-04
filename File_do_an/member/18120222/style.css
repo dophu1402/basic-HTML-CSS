@@ -246,7 +246,7 @@ li.member_menu_button {
 
 .myname {
 	color: #ff9f75;
-	top: 40%;
+	top: 30%;
 	left: 40%;
 	text-align: center;
 	font-size: 64px;
@@ -261,7 +261,7 @@ li.member_menu_button {
 	opacity: 0.2;}
 	50%	{opacity: 1;}
 	70% {opacity: 1;}
-	100% {top: 45%; left: 40%};
+	100% {top: 35%;};
 }
 
 @keyframes del{
@@ -284,7 +284,7 @@ li.member_menu_button {
 	color: #fff;
 	padding: 4px 10px;
 	position: absolute;
-	right: 0px;
+	right: 2vw;
 	top: 0px;
 	text-decoration: none;
 }
