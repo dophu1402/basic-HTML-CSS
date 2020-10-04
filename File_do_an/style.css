@@ -34,7 +34,7 @@ area{
 
 .img_header {
 	width: 100vw;
-	max-height: 300px;
+	height: auto;
 }
 
 ul.menu_button {
