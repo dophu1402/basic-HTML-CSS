@@ -134,6 +134,7 @@ head, body, {
 
 .card {
 	margin-left: 18%;
+	margin-bottom: 30px;
 	max-width: 350px;
 	max-height: 500px;
 	border-radius: 5px 5px 0px 0px;
