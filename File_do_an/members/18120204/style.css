@@ -2,7 +2,7 @@
 .container {
 	width: 100%;
 	height: 100%;
-	position: fixed;
+	position: absolute;
 	top:0px;
 	left:0px;
 }
@@ -10,7 +10,7 @@
 .content {
 	width: 100%;
 	height:100%;
-	position: fixed;
+	position: absolute;
 }
 
 #imggr {
@@ -128,12 +128,13 @@ head, body, {
 	width: 100%;
 	height: 100%;
 	position: absolute;	
+	z-index: -1;
 }
 
 .background {
 	width: 100%;
 	height: 100%;
-	position: absolute;
+	position: fixed;
 }
 
 .school {
@@ -144,15 +145,16 @@ head, body, {
 }
 
 .card {
-	left: 250px;
-	width: 350px;
-	height: 500px;
+	margin-left: 18%;
+	margin-bottom: 30px;
+	max-width: 350px;
+	max-height: 500px;
 	border-radius: 5px 5px 0px 0px;
 	background: #62a4f0;
 	box-shadow: 3px 3px 4px #200030;
 	box-shadow: rgba(0,0,0,.6);
 	background: rgba(0,0,0,.6);
-	position: absolute;
+	position: relative;
 }
 
 .card .github {
@@ -171,7 +173,7 @@ head, body, {
 }
 .header {
 	width: 100%;
-	position: absolute;
+	position: relative;
 }
 .fullname {
 	color: orange;
@@ -191,28 +193,32 @@ head, body, {
 .design {
 	letter-spacing: 2px;
 	top: 100px;
-	width: 100%;
-	height: 70%;
 	position: relative;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .info {
-	margin-top: 0;
-	left: 650px;
-	width: 550px;
-	height: 500px;
+	left: 8%;
+	width: 50%;
+	min-width: 420px;
+	max-width: 550px;
+	max-height: 500px;
 	border-radius: 5px 5px 0px 0px;
 	background: #62a4f0;
 	box-shadow: 3px 3px 4px #200030;
 	box-shadow: rgba(0,0,0,.6);
 	background: rgba(0,0,0,.6);
+	margin-bottom: 30px;
 	position: relative;
 }
 .info >h1{
+	margin: 0px;
 	background: orange;
 	border-radius: 5px 5px 0px 0px;
 	color: white;
 	text-align: right;
+	position: relative;
 }
 
 .info >div{
@@ -259,7 +265,7 @@ head, body, {
 	left:0px;
 	background-color: #2F4F4F;
 	background-size:cover;
-	position: absolute;
+	position: fixed;
 	animation-name: del;
 	animation-duration: 1s;
 	animation-delay: 3s;

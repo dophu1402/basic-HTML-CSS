@@ -193,8 +193,6 @@ head, body, {
 .design {
 	letter-spacing: 2px;
 	top: 100px;
-	width: 100%;
-	height: 70%;
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
@@ -211,6 +209,7 @@ head, body, {
 	box-shadow: 3px 3px 4px #200030;
 	box-shadow: rgba(0,0,0,.6);
 	background: rgba(0,0,0,.6);
+	margin-bottom: 30px;
 	position: relative;
 }
 .info >h1{
