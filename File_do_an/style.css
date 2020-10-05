@@ -9,13 +9,12 @@
 	width: 80%;
 	margin: 0 5%;
 	padding: 15px;
-	/*background-color: red;*/
 	text-align: center;
 }
 
 #imggr {
 	margin: 5%;
-	height: 580px;
+	height: 600px;
 }
 
 area{
@@ -42,7 +41,7 @@ ul.menu_button {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #70829e;
+	background-color: orange;
 	/*position: sticky;*/
 	top: 0;
 }
@@ -61,11 +60,11 @@ ul.menu_button li > a {
 }
 
 ul.menu_button li a:hover, .member_menu_button:hover .member_menu_name {
-	background-color: #889bba;
+	background-color: #c2af8d;
 }
 
 .homebutton {
-	background-color: #186ff5;
+	background-color: #db9a21;
 }
 
 li.member_menu_button {
@@ -80,7 +79,7 @@ li.member_menu_button {
 	z-index: 1;
 	max-width: 80px;
 	margin-left: 30px;
-	background-color: #70829e;
+	background-color: orange;
 }
 
 
@@ -109,3 +108,8 @@ li.member_menu_button {
 #icon_team > a {
 	padding: 0px 0px;
 }
+
+.icon_a {
+	background-color : orange !important;
+}
+
