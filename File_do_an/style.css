@@ -17,8 +17,9 @@ td {
 }
 
 #imggr {
-	margin: 5%;
-	height: 600px;
+	width: 90%;
+	height: 80%;
+	margin-top: 15px;
 }
 
 area{
@@ -121,6 +122,26 @@ li.member_menu_button {
 	background-color: #1d262d;
 	height: auto;
 	width: 100%;
+}
+
+.wrapper_img {
+	left: 5vw;
+	margin-top: 25px;
+	margin-left: 45px;
+	width: 900px;
+	height: 700px;
+	border-radius: 5px 5px 0px 0px;
+	/*background: #62a4f0;*/
+	box-shadow: 3px 3px 4px #FFC966;
+	background: rgba(255,165,0,.6);
+	/*background-color: orange*/
+	position: relative;
+	text-align: center;
+}
+
+.name_team {
+	margin-top: 1em;
+    font-size: 2em;
 }
 
 .members-footer {
