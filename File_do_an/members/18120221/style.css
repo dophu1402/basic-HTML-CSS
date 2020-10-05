@@ -9,6 +9,7 @@
 
 .content {
 	width: 100%;
+	/*width: 100vw;*/
 	height:100%;
 	position: fixed;
 }
@@ -191,9 +192,13 @@ head, body, {
 .design {
 	letter-spacing: 2px;
 	top: 100px;
-	width: 100%;
+	/*width: 100%;*/
+	/*width: 100vw;*/
 	height: 70%;
 	position: relative;
+	/*
+	display: flex;
+	flex-wrap: wrap;*/
 }
 
 .info {
