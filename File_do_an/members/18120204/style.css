@@ -264,7 +264,7 @@ head, body, {
 	animation-duration: 1s;
 	animation-delay: 3s;
 	animation-fill-mode: forwards;
-	z-index: 1;
+	z-index: 999;
 }
 
 .sayhello {
@@ -356,6 +356,72 @@ head, body, {
 	background-color : orange !important;
 }
 
+
 .footer {
-	position: absolute;
+	position: fixed;
+	bottom:0px;
+	margin-top: 100px;
+	background-color: #1d262d;
+	height: auto;
+	width: 100%;
+	z-index: 0
+}
+
+.members-footer {
+	display: inline-block;
+	list-style-type: none;
+	font-family: monospace;
+	font-size: 17px;
+	margin: 30px 40px;
+}
+
+.members-footer ul {
+	list-style-type: none;
+	padding: 0px 5px;
+}
+
+.members-footer-list li {
+	color: #869fb2;
+  text-decoration: none;
+}
+
+.members-footer-list a {
+	color: #869fb2;
+  text-decoration: none;
+}
+
+.members-footer-list a:hover {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.members-footer p {
+	color: white;
+}
+
+
+.footer h4 {
+	color: #f4f4f4;
+	margin: 5px 5px;
+}
+
+.footer hr{
+	color: blue;
+	background-color: blue;
+}
+
+.copyright-footer h5 {
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	margin: 10px 10px;
+}
+
+#logo-khoa {
+	height: 100px;
+}
+
+#img_icon-footer {
+	height: 100px;
 }
