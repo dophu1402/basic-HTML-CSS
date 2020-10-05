@@ -355,3 +355,7 @@ head, body, {
 .icon_a {
 	background-color : orange !important;
 }
+
+.footer {
+	position: absolute;
+}
