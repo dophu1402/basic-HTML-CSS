@@ -4,12 +4,16 @@
 	height: 100vh;
 }
 
+.content-info {
+	font-size: 19px;
+}
 
-.content {
-	width: 80%;
-	margin: 0 5%;
-	padding: 15px;
-	text-align: center;
+table {
+	width: 100%;
+}
+
+td {
+	width: 60%;
 }
 
 #imggr {
@@ -28,8 +32,6 @@ area{
 #phuImg:hover {
 	height: 500px;
 }
-
-
 
 .img_header {
 	width: 100vw;
@@ -113,3 +115,69 @@ li.member_menu_button {
 	background-color : orange !important;
 }
 
+.footer {
+	margin-top: 100px;
+	margin-left: 25px;
+	background-color: #1d262d;
+	height: auto;
+	width: 100%;
+}
+
+.members-footer {
+	display: inline-block;
+	list-style-type: none;
+	font-family: monospace;
+	font-size: 17px;
+	margin: 30px 40px;
+}
+
+.members-footer ul {
+	list-style-type: none;
+	padding: 0px 5px;
+}
+
+.members-footer-list li {
+	color: #869fb2;
+  text-decoration: none;
+}
+
+.members-footer-list a {
+	color: #869fb2;
+  text-decoration: none;
+}
+
+.members-footer-list a:hover {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.members-footer p {
+	color: white;
+}
+
+
+.footer h4 {
+	color: #f4f4f4;
+	margin: 5px 5px;
+}
+
+.footer hr{
+	color: blue;
+	background-color: blue;
+}
+
+.copyright-footer h5 {
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	margin: 10px 10px;
+}
+
+#logo-khoa {
+	height: 100px;
+}
+
+#img_icon-footer {
+	height: 100px;
+}
