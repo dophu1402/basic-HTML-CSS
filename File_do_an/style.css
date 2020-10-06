@@ -9,6 +9,7 @@
 
 .content-info {
 	font-size: 19px;
+	position: relative;
 }
 
 table {
@@ -20,8 +21,9 @@ td {
 }
 
 #imggr {
-	width: 90%;
-	height: 80%;
+	min-width: 500px;
+	max-width: 500px;
+	height: auto;
 	margin-top: 15px;
 }
 
@@ -135,11 +137,12 @@ li.member_menu_button {
 }
 
 .wrapper_img {
-	left: 5vw;
+	left: 5%;
 	margin-top: 25px;
 	margin-left: 45px;
-	width: 45vw;
-	height: 75vh;
+	min-width: 500px;
+	max-width: 600px;
+	min-height: 75vh;
 	border-radius: 5px 5px 0px 0px;
 	box-shadow: 3px 3px 4px #FFC966;
 	background: rgba(255,165,0,.6);
