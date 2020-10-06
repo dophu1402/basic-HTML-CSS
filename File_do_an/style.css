@@ -9,7 +9,6 @@
 
 .content-info {
 	font-size: 19px;
-	position: relative;
 }
 
 table {
@@ -21,14 +20,13 @@ td {
 }
 
 #imggr {
-	min-width: 500px;
-	max-width: 500px;
-	height: auto;
+	width: 90%;
+	height: 80%;
 	margin-top: 15px;
 }
 
 area{
-    outline: none;
+    /*outline: none;*/
 }
 .membergr {
 	/*display: none;*/
@@ -137,12 +135,11 @@ li.member_menu_button {
 }
 
 .wrapper_img {
-	left: 5%;
+	left: 5vw;
 	margin-top: 25px;
 	margin-left: 45px;
-	min-width: 500px;
-	max-width: 600px;
-	min-height: 75vh;
+	width: 700px;
+	height: 600px;
 	border-radius: 5px 5px 0px 0px;
 	box-shadow: 3px 3px 4px #FFC966;
 	background: rgba(255,165,0,.6);
